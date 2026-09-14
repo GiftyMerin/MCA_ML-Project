@@ -90,10 +90,13 @@ dict.clear()
 print(dict)     
 
 set={'a','bulb','is','on','top','of','the','ladder'}
-print(set)      '''
+print(set)     
 
 age=int(input("Enter your age: "))
 if age>=18:
     print("You can vote.")
 else:
-    print("You cannot vote.")
+    print("You cannot vote.")    '''
+for i in range(10):
+    print(i,end=" ")
+    print()
