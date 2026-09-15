@@ -96,7 +96,25 @@ age=int(input("Enter your age: "))
 if age>=18:
     print("You can vote.")
 else:
-    print("You cannot vote.")    '''
+    print("You cannot vote.")    
 for i in range(10):
     print(i,end=" ")
     print()
+
+
+def name():
+    print("grrrr")
+name()
+li=[1,2,3,4,5,6]
+print(li)       '''
+
+#class li:
+def Num(avg):
+    if not avg:
+        return 0
+    return sum(avg)/len(avg)
+li=[1,2,3,4,5,6,7,8,9]
+result=Num(li)
+print("The average of the list is: ",result)
+
+
